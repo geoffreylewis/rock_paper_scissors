@@ -10,6 +10,11 @@ Only using Python, this software will take a user's choice and randomly respond 
 
 ## Version History 
 
+**Version 0.2**  
+*4/25/2024*  
+* Added player choices and the computer's random choices.
+* Added images for the hands.
+
 **Version 0.1**  
 *4/24/2024*  
 * This program has just been started.
