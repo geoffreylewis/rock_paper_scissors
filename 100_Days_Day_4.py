@@ -60,4 +60,17 @@ else:
     print(scissors_image)
 
 # End of Game
-print("You win!")
+if player_choice == computer_choice:
+    print("You both draw.")
+elif player_choice == hand_words[0] and computer_choice == hand_words[1]:
+    print("You lose...")
+elif player_choice == hand_words[0] and computer_choice == hand_words[2]:
+    print("You win!")
+elif player_choice == hand_words[1] and computer_choice == hand_words[0]:
+    print("You win!")
+elif player_choice == hand_words[1] and computer_choice == hand_words[2]:
+    print("You lose...")
+elif player_choice == hand_words[2] and computer_choice == hand_words[0]:
+    print("You lose...")
+elif player_choice == hand_words[2] and computer_choice == hand_words[1]:
+    print("You win!")
